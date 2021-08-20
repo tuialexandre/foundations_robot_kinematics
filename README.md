@@ -63,3 +63,5 @@ With roscore running, every example node can be run with:
 ## To Do list
 
 A script to select and run examples
+
+Refactor hardcoded robot's params to a config file
