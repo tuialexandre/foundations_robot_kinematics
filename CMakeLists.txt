@@ -25,9 +25,9 @@ add_executable(three_r_planar_forward src/3r_planar_forward.cpp)
 add_dependencies(three_r_planar_forward ${catkin_EXPORTED_TARGETS})
 target_link_libraries(three_r_planar_forward ${catkin_LIBRARIES} ${PROJECT_NAME}_lib)
 
-# add_executable(three_r_planar_inverse src/3r_planar_inverse.cpp)
-# add_dependencies(three_r_planar_inverse ${catkin_EXPORTED_TARGETS})
-# target_link_libraries(three_r_planar_inverse ${catkin_LIBRARIES} ${PROJECT_NAME}_lib)
+add_executable(three_r_planar_inverse src/3r_planar_inverse.cpp)
+add_dependencies(three_r_planar_inverse ${catkin_EXPORTED_TARGETS})
+target_link_libraries(three_r_planar_inverse ${catkin_LIBRARIES} ${PROJECT_NAME}_lib)
 
 # add_executable(three_r_planar_jacobian src/3r_planar_jacobian.cpp)
 # add_dependencies(three_r_planar_jacobian ${catkin_EXPORTED_TARGETS})

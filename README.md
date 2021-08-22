@@ -2,6 +2,8 @@
 
 This is a compilation of some robot kinematics studies and examples that I did during college and updated to be run with ROS.
 
+I am currently reviewing and uploading examples, that's why some examples are still missing
+
 I hope it can be useful to others :)
 
 ## 3R Planar Robot
@@ -65,3 +67,5 @@ With roscore running, every example node can be run with:
 A script to select and run examples
 
 Refactor hardcoded robot's params to a config file
+
+Add 3D models
