@@ -10,11 +10,11 @@ I hope it can be useful to others :)
 
 ![3r](.image/3r.png)
 
-* **3r_planar_forward:** A 3R planar robot example using forward kinematics
+* **three_r_planar_forward:** A 3R planar robot example using forward kinematics
 
-* **3r_planar_inverse:** A 3R planar robot example using inverse kinematics
+* **three_r_planar_inverse:** A 3R planar robot example using inverse kinematics
 
-* **3r_planar_jacobian:** A 3R planar robot example using jacobian
+* **three_r_planar_jacobian:** A 3R planar robot example using jacobian
 
 ## Stanford Robot
 
@@ -24,7 +24,7 @@ I hope it can be useful to others :)
 
 ![3rrr](.image/3rrr.png)
 
-* **3rrr_planar_inverse:** A 3RRR parallel robot using inverse kinematics
+* **three_rrr_planar_inverse:** A 3RRR parallel robot using inverse kinematics
 
 ## Delta Robot
 
