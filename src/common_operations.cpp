@@ -1,7 +1,12 @@
 
 #include <common_operations.h>
 
-
+/*
+* alpha: angle from zi-1 to zi measured about the segment i-1
+* a: distance from zi-1 to zi measured along the segment i-1
+* d: distance from xi-1 to xi measured along zi
+* theta: angle from xi-1 to xi measured about zi
+*/
 std::vector< std::vector<double> > CommonOperations::calculateT(double alpha, double a, double d, double theta)
 {
     size_t column_count = 4;
